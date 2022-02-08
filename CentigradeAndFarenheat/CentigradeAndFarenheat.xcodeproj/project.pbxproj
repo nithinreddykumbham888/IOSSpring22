@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EF7198B27B3135D00FB1920 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF7198A27B3135D00FB1920 /* AppDelegate.swift */; };
+		2EF7198D27B3135D00FB1920 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF7198C27B3135D00FB1920 /* SceneDelegate.swift */; };
+		2EF7198F27B3135D00FB1920 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF7198E27B3135D00FB1920 /* ViewController.swift */; };
+		2EF7199227B3135D00FB1920 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EF7199027B3135D00FB1920 /* Main.storyboard */; };
+		2EF7199427B3135E00FB1920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EF7199327B3135E00FB1920 /* Assets.xcassets */; };
+		2EF7199727B3135E00FB1920 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EF7199527B3135E00FB1920 /* LaunchScreen.storyboard */; };
+		2EF719A227B3135E00FB1920 /* CentigradeAndFarenheatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF719A127B3135E00FB1920 /* CentigradeAndFarenheatTests.swift */; };
+		2EF719AC27B3135E00FB1920 /* CentigradeAndFarenheatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF719AB27B3135E00FB1920 /* CentigradeAndFarenheatUITests.swift */; };
+		2EF719AE27B3135E00FB1920 /* CentigradeAndFarenheatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF719AD27B3135E00FB1920 /* CentigradeAndFarenheatUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EF7199E27B3135E00FB1920 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EF7197F27B3135D00FB1920 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EF7198627B3135D00FB1920;
+			remoteInfo = CentigradeAndFarenheat;
+		};
+		2EF719A827B3135E00FB1920 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EF7197F27B3135D00FB1920 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EF7198627B3135D00FB1920;
+			remoteInfo = CentigradeAndFarenheat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2EF7198727B3135D00FB1920 /* CentigradeAndFarenheat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CentigradeAndFarenheat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EF7198A27B3135D00FB1920 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2EF7198C27B3135D00FB1920 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2EF7198E27B3135D00FB1920 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2EF7199127B3135D00FB1920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EF7199327B3135E00FB1920 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EF7199627B3135E00FB1920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2EF7199827B3135E00FB1920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EF7199D27B3135E00FB1920 /* CentigradeAndFarenheatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CentigradeAndFarenheatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EF719A127B3135E00FB1920 /* CentigradeAndFarenheatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentigradeAndFarenheatTests.swift; sourceTree = "<group>"; };
+		2EF719A727B3135E00FB1920 /* CentigradeAndFarenheatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CentigradeAndFarenheatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EF719AB27B3135E00FB1920 /* CentigradeAndFarenheatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentigradeAndFarenheatUITests.swift; sourceTree = "<group>"; };
+		2EF719AD27B3135E00FB1920 /* CentigradeAndFarenheatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentigradeAndFarenheatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EF7198427B3135D00FB1920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EF7199A27B3135E00FB1920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EF719A427B3135E00FB1920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EF7197E27B3135D00FB1920 = {
+			isa = PBXGroup;
+			children = (
+				2EF7198927B3135D00FB1920 /* CentigradeAndFarenheat */,
+				2EF719A027B3135E00FB1920 /* CentigradeAndFarenheatTests */,
+				2EF719AA27B3135E00FB1920 /* CentigradeAndFarenheatUITests */,
+				2EF7198827B3135D00FB1920 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EF7198827B3135D00FB1920 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EF7198727B3135D00FB1920 /* CentigradeAndFarenheat.app */,
+				2EF7199D27B3135E00FB1920 /* CentigradeAndFarenheatTests.xctest */,
+				2EF719A727B3135E00FB1920 /* CentigradeAndFarenheatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EF7198927B3135D00FB1920 /* CentigradeAndFarenheat */ = {
+			isa = PBXGroup;
+			children = (
+				2EF7198A27B3135D00FB1920 /* AppDelegate.swift */,
+				2EF7198C27B3135D00FB1920 /* SceneDelegate.swift */,
+				2EF7198E27B3135D00FB1920 /* ViewController.swift */,
+				2EF7199027B3135D00FB1920 /* Main.storyboard */,
+				2EF7199327B3135E00FB1920 /* Assets.xcassets */,
+				2EF7199527B3135E00FB1920 /* LaunchScreen.storyboard */,
+				2EF7199827B3135E00FB1920 /* Info.plist */,
+			);
+			path = CentigradeAndFarenheat;
+			sourceTree = "<group>";
+		};
+		2EF719A027B3135E00FB1920 /* CentigradeAndFarenheatTests */ = {
+			isa = PBXGroup;
+			children = (
+				2EF719A127B3135E00FB1920 /* CentigradeAndFarenheatTests.swift */,
+			);
+			path = CentigradeAndFarenheatTests;
+			sourceTree = "<group>";
+		};
+		2EF719AA27B3135E00FB1920 /* CentigradeAndFarenheatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2EF719AB27B3135E00FB1920 /* CentigradeAndFarenheatUITests.swift */,
+				2EF719AD27B3135E00FB1920 /* CentigradeAndFarenheatUITestsLaunchTests.swift */,
+			);
+			path = CentigradeAndFarenheatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EF7198627B3135D00FB1920 /* CentigradeAndFarenheat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EF719B127B3135E00FB1920 /* Build configuration list for PBXNativeTarget "CentigradeAndFarenheat" */;
+			buildPhases = (
+				2EF7198327B3135D00FB1920 /* Sources */,
+				2EF7198427B3135D00FB1920 /* Frameworks */,
+				2EF7198527B3135D00FB1920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CentigradeAndFarenheat;
+			productName = CentigradeAndFarenheat;
+			productReference = 2EF7198727B3135D00FB1920 /* CentigradeAndFarenheat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2EF7199C27B3135E00FB1920 /* CentigradeAndFarenheatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EF719B427B3135E00FB1920 /* Build configuration list for PBXNativeTarget "CentigradeAndFarenheatTests" */;
+			buildPhases = (
+				2EF7199927B3135E00FB1920 /* Sources */,
+				2EF7199A27B3135E00FB1920 /* Frameworks */,
+				2EF7199B27B3135E00FB1920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EF7199F27B3135E00FB1920 /* PBXTargetDependency */,
+			);
+			name = CentigradeAndFarenheatTests;
+			productName = CentigradeAndFarenheatTests;
+			productReference = 2EF7199D27B3135E00FB1920 /* CentigradeAndFarenheatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2EF719A627B3135E00FB1920 /* CentigradeAndFarenheatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EF719B727B3135E00FB1920 /* Build configuration list for PBXNativeTarget "CentigradeAndFarenheatUITests" */;
+			buildPhases = (
+				2EF719A327B3135E00FB1920 /* Sources */,
+				2EF719A427B3135E00FB1920 /* Frameworks */,
+				2EF719A527B3135E00FB1920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EF719A927B3135E00FB1920 /* PBXTargetDependency */,
+			);
+			name = CentigradeAndFarenheatUITests;
+			productName = CentigradeAndFarenheatUITests;
+			productReference = 2EF719A727B3135E00FB1920 /* CentigradeAndFarenheatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EF7197F27B3135D00FB1920 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					2EF7198627B3135D00FB1920 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					2EF7199C27B3135E00FB1920 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 2EF7198627B3135D00FB1920;
+					};
+					2EF719A627B3135E00FB1920 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 2EF7198627B3135D00FB1920;
+					};
+				};
+			};
+			buildConfigurationList = 2EF7198227B3135D00FB1920 /* Build configuration list for PBXProject "CentigradeAndFarenheat" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EF7197E27B3135D00FB1920;
+			productRefGroup = 2EF7198827B3135D00FB1920 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EF7198627B3135D00FB1920 /* CentigradeAndFarenheat */,
+				2EF7199C27B3135E00FB1920 /* CentigradeAndFarenheatTests */,
+				2EF719A627B3135E00FB1920 /* CentigradeAndFarenheatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EF7198527B3135D00FB1920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF7199727B3135E00FB1920 /* LaunchScreen.storyboard in Resources */,
+				2EF7199427B3135E00FB1920 /* Assets.xcassets in Resources */,
+				2EF7199227B3135D00FB1920 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EF7199B27B3135E00FB1920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EF719A527B3135E00FB1920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EF7198327B3135D00FB1920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF7198F27B3135D00FB1920 /* ViewController.swift in Sources */,
+				2EF7198B27B3135D00FB1920 /* AppDelegate.swift in Sources */,
+				2EF7198D27B3135D00FB1920 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EF7199927B3135E00FB1920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF719A227B3135E00FB1920 /* CentigradeAndFarenheatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EF719A327B3135E00FB1920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF719AC27B3135E00FB1920 /* CentigradeAndFarenheatUITests.swift in Sources */,
+				2EF719AE27B3135E00FB1920 /* CentigradeAndFarenheatUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EF7199F27B3135E00FB1920 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EF7198627B3135D00FB1920 /* CentigradeAndFarenheat */;
+			targetProxy = 2EF7199E27B3135E00FB1920 /* PBXContainerItemProxy */;
+		};
+		2EF719A927B3135E00FB1920 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EF7198627B3135D00FB1920 /* CentigradeAndFarenheat */;
+			targetProxy = 2EF719A827B3135E00FB1920 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2EF7199027B3135D00FB1920 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EF7199127B3135D00FB1920 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2EF7199527B3135E00FB1920 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EF7199627B3135E00FB1920 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EF719AF27B3135E00FB1920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2EF719B027B3135E00FB1920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EF719B227B3135E00FB1920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CentigradeAndFarenheat/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CentigradeAndFharenheat;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.CentigradeAndFarenheat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2EF719B327B3135E00FB1920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CentigradeAndFarenheat/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CentigradeAndFharenheat;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.CentigradeAndFarenheat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2EF719B527B3135E00FB1920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.CentigradeAndFarenheatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CentigradeAndFarenheat.app/CentigradeAndFarenheat";
+			};
+			name = Debug;
+		};
+		2EF719B627B3135E00FB1920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.CentigradeAndFarenheatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CentigradeAndFarenheat.app/CentigradeAndFarenheat";
+			};
+			name = Release;
+		};
+		2EF719B827B3135E00FB1920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.CentigradeAndFarenheatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CentigradeAndFarenheat;
+			};
+			name = Debug;
+		};
+		2EF719B927B3135E00FB1920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.CentigradeAndFarenheatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CentigradeAndFarenheat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EF7198227B3135D00FB1920 /* Build configuration list for PBXProject "CentigradeAndFarenheat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EF719AF27B3135E00FB1920 /* Debug */,
+				2EF719B027B3135E00FB1920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EF719B127B3135E00FB1920 /* Build configuration list for PBXNativeTarget "CentigradeAndFarenheat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EF719B227B3135E00FB1920 /* Debug */,
+				2EF719B327B3135E00FB1920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EF719B427B3135E00FB1920 /* Build configuration list for PBXNativeTarget "CentigradeAndFarenheatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EF719B527B3135E00FB1920 /* Debug */,
+				2EF719B627B3135E00FB1920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EF719B727B3135E00FB1920 /* Build configuration list for PBXNativeTarget "CentigradeAndFarenheatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EF719B827B3135E00FB1920 /* Debug */,
+				2EF719B927B3135E00FB1920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EF7197F27B3135D00FB1920 /* Project object */;
+}
