@@ -164,6 +164,7 @@ class ViewController: UIViewController {
         textOutput.text = ""
         imageNumber = 0;
         found = 0;
+        resultImage.image = UIImage(named: image01[0])
     }
     
     func updateUI(_ cou : Int,_ imageNum : Int){
