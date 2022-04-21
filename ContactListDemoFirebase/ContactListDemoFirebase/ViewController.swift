@@ -24,6 +24,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBOutlet weak var tableViewOutlet: UITableView!
     
     var contactName:[String] = []
+    var contacts = NSDictionary()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,18 +36,57 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func fetchData(){
         //create reference
+//        let databaseRef = Database.database().reference()
+//
+//        databaseRef.observeSingleEvent(of: .value) {
+//            snapshot in
+//            let contacts = snapshot.value as! NSDictionary
+//
+//            self.contactName = contacts.allKeys as! [String]
+//
+//            self.tableViewOutlet.reloadData()
+//        }
+        
+        //Create the reference
         let databaseRef = Database.database().reference()
         
-        databaseRef.observeSingleEvent(of: .value) {
-            snapshot in
-            let contacts = snapshot.value as! NSDictionary
+        //Get the data using the method observeSingleEvent
+        databaseRef.observeSingleEvent(of: .value) { snapshot in
+            self.contacts = snapshot.value as! NSDictionary
+            self.contactName = self.contacts.allKeys as! [String]
+            self.tableViewOutlet.reloadData();
             
-            self.contactName = contacts.allKeys as! [String]
+            print(self.contacts)
             
-            self.tableViewOutlet.reloadData()
         }
     }
 
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let transistion = segue.identifier
+        if transistion == "infoDisplay"{
+            let destination = segue.destination as! ResultViewController
+            let contactClicked = contactName[(tableViewOutlet.indexPathForSelectedRow?.row)!]
+            for (key, value) in self.contacts{
+                if key as! String == contactClicked{
+                    for (key1, value1) in value as! [String:Any]{
+                        if key1 == "Email"{
+                            destination.email = value1 as! String
+                        }
+                        else if key1 == "PhoneNum"{
+                            destination.phoneNumber = value1 as! Int
+                        }
+                    }
+                }
+                print(key)//String
+                print(value)//Dictionary
+            }
+            
+           
+            
+            
+        }
+    }
 
 }
 
