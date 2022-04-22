@@ -9,6 +9,9 @@ import UIKit
 
 class MovieCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var imageViewOutlet: UIImageView!
     
-    
+    func assignMovie(with Movie: Movies){
+        imageViewOutlet.image = Movie.image
+    }
 }
