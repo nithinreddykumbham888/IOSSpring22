@@ -1,0 +1,32 @@
+1. https://www.semanticscholar.org/paper/Mobile-Edge-Computing-Sadiku-Kotteti/7427e2bbec02a7b7300f88d59e35d61d643b9417
+   Mobile Edge Computing ----> M. Sadiku, C. M. M. Kotteti, Sarhan M. Musa
+
+2. https://dl.acm.org/doi/10.1145/3132479.3132490
+   Elastic urban video surveillance system using edge computing ---> Jianyu Wang, Jianli Pan
+
+3. https://dl.acm.org/doi/10.1145/3397160 (Peer reviewed)
+   Incentive-Driven Computation Offloading in Blockchain-Enabled E-Commerce ---> Shuiguang Deng, Guanjie Cheng
+
+4. http://www.comsis.org/archive.php?show=ppr732-2002 (Peer reviewed)
+   Multi-Objective Optimization of Container-Based Microservice Scheduling in Edge Computing ----> Guisheng Fan, Liang Chen1
+
+5. https://www.semanticscholar.org/paper/Mobile-Edge-Computing-in-Unmanned-Aerial-Vehicle-Zhou-Hu/0e8d1a3f936fcd860251fe00bee7fd931fa08520
+   Mobile Edge Computing in Unmanned Aerial Vehicle Networks ---> Fuhui Zhou, R. Hu, Yuhao Wang
+
+6. https://www.semanticscholar.org/paper/EFFICIENT-AND-SECURE-DATA-UTILIZATION-IN-MOBILE-BY-Bhalaji/e150570b14d2175ef3c28e852e93666a5b8d35ed
+   EFFICIENT AND SECURE DATA UTILIZATION IN MOBILE EDGE COMPUTING BY DATA REPLICATION ---> N.Bhalaji
+
+7. https://www.semanticscholar.org/paper/Edge-server-placement-in-mobile-edge-computing-Wang-Zhao/f5affe02d2492ade9cf117331f3d386cea224b15
+   Edge server placement in mobile edge computing --> Shangguang Wang, Yali Zhao, Ching-Hsien Hsu
+
+8. https://dl.acm.org/doi/10.1145/3375998.3376034
+   Optimizing Task Execution for Mobile Edge Computing ---> Muhammad Fayyaz, Cao Bin
+
+9. https://dl.acm.org/doi/10.1145/3152360.3152364
+   A bandwidth allocation scheme based on residual bandwidth information in mobile edge computing ---> Yusuke Ito, Hiroyuki Koga
+
+10. https://dl.acm.org/doi/10.1145/3229556.3229557
+    Deployment Characteristics of "The Edge" in Mobile Edge Computing ---> Meenakshi Syamkumar, Paul Barford, Ramakrishnan Durairajan.
+
+
+
